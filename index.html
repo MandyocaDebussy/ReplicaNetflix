@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/apps_media_netflix_logo_website_movie_series_multimedia_streaming_stream_icon_182738.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="logo">
+    <a href="#">
+    <img src="img/netflixlogo.png" alt="logo" width="190px" style="margin: 10px;"> 
+    </a>  
+     </div>
+     <section>
+    <form action="cadastro.php" method="post" >
+         <h2>Entrar</h2>
+         <div class="display_usuario">
+         <input type="text" name="usuario" id="iusuario" placeholder="Email ou numero de telefone" required><br>
+         </div>
+         <div class="display_senha">
+        
+            <input type="password" id="senha" placeholder="Senha" maxlength="10" required ><br>
+            <a href="#" id="icon"  onclick="mostrarSenha()" >Mostrar</a>
+         </div>
+      
+          <button class="display_entrar">Entrar</button>
+         
+          <div class="display_box">
+<p><input type="checkbox" name="box" id="ibox">
+   <label for="ibox"> Lembre-se de mim.</p> 
+           <a href="#">Precisa de ajuda?</a>
+           
+          </div>
+     </form>
+     <!-- <div class="logo-facebook">
+        <a href="#"><img src="img/Facebook_logo.png" alt="logofacebook" width="25px" height="25px"></a>
+
+        <span>Conectar com Facebook</span> -->
+     </div>
+     <div class="display_assine">
+     <p>Novo por aqui?<a href="#" style="color:aliceblue; font-weight: bold;"> Assine agora.</a></p>
+     </div>
+     <div class="display_footer">
+        <p>Esta pagina é protegida pelo Google reCAPTCHA para garantir que voce nao é um robo.<a href="#" style="color: #3434e0; font-weight:bold; "> Saiba mais.</a></p>
+     </div>
+     </section>
+
+
+<script type="text/javascript" src="script.js"></script>
+<footer>
+   <div class="roda_pe"></div>
+</footer>
+</body>
+</html>
