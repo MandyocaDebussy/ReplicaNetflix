@@ -143,13 +143,9 @@ border-radius: 5px;
 }
 
 
-#ibox{
+p > a{ color: #fff0f093;}
 
-}
-
-div > a{ color: #fff0f093;}
-
-div > a:hover{
+div > p :hover{
     color: #f0f8ffb4;
     text-decoration:underline ;
 } 
@@ -197,11 +193,5 @@ div > a:hover{
         width: 70vw;
         border-radius: 0px;
      
-    }
-
-    .roda_pe{
-        background-color:#ff000069;
-        margin-top:100px;
-        height: 20px;
     }
 }
